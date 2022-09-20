@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-right: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: #000000;
+}
+
+.busca{
+  display: flex;
+  justify-content: center;
+  background-color: #9e8cef
+  ;
+}
+
+.busca input{
+  border-width: 100px;
+  border: #d3bbff;
+  width: 250px;
+  height: 50px;
+  background-color: #d3bbff;
+  margin-top: 35px;
+  border-radius: 30px;
+  margin-bottom: 25px;
+  text-align: center;
+
+}
+
+
+.odas{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 50px;
+  border: solid 10px #5e1b98;
+  border-radius: 100px;
+  background-color: #b8a4f7;
+  width: 100%;
+}
+
+.cabecalhoum{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #d3bbff
+  ;
+}
+
+.rodape{
+  display: flex;
+  text-align: center;
+  background: #9e8cef
+  ;  
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.rodape p{
+  color: rgb(255, 255, 255);
+}
+
+.titulozin h1{
+  font-size: 50px;
+  align-items: center;
+}
+
+.logo img{
+  max-width: 400px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+}
+
+
+
+.container {
+  min-height: 100vh;
+  background-color: #d3bbff;
+}
+
+.listas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+  gap: 30px;
+}
+
+.lista {
+  background-color: #9e8cef;
+  margin-top: 100px;
+  box-shadow: 0 0 10px #130053 ;
+  padding: 50px;
+  
+}
+
+.lista p{
+  margin-top: 10px;
+}
+
+.front{
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.lista:hover {
+  transform: scale(1.1);
+}
+
+.lista{
+  transition: all 0.3s;
+}
+.lista img {
+  max-width: 100%
+}
+
+.lista-content{
+  padding: 20px;
+  margin: 10px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
